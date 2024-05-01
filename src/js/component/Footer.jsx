@@ -3,10 +3,10 @@ import React from 'react';
 const Footer = () => {
     return (
        <>
-<div className="card text-center bg-dark">
+<div className="footer card text-center bg-dark container-fluid">
  
-  <div className="card-footer text-light">
-    2 days ago
+  <div className="footer-text card-footer text-light">
+    Copyright @ Your website 2024
   </div>
 </div>
        </>

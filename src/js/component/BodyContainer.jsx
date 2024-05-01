@@ -5,13 +5,13 @@ import Deck from './Deck';
 const BodyContainer = () => {
     return (
        <>
-         <div className="row">
-            <div className="col-3"></div>
-            <div className="col-6">
+         <div className=" body row container-fluid">
+            <div className="col"></div>
+            <div className="col-11">
             <Jumbotron />
             <Deck />
             </div>
-            <div className="col-3"></div>
+            <div className="col"></div>
         </div>
        </>
     );

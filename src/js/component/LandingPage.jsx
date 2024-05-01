@@ -6,9 +6,11 @@ import Footer from './Footer';
 const LandingPage = () => {
     return (
        <>
-          <Navbar />
-          <BodyContainer />
-          <Footer />
+         <div className="landingPage">
+            <Navbar />
+            <BodyContainer />
+            <Footer />
+         </div>
        </>
     );
 
