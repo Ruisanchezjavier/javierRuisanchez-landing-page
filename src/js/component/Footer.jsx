@@ -3,12 +3,12 @@ import React from 'react';
 const Footer = () => {
     return (
        <>
-<div className="footer card text-center bg-dark container-fluid">
- 
-  <div className="footer-text card-footer text-light">
-    Copyright @ Your website 2024
-  </div>
-</div>
+          <div className="footer navbar navbar-expand-lg bg-light bg-dark">
+          
+            <div className=" container-fluid">
+              <p class="navbar-brand my-auto mx-auto text-light" href="#">Copyright © Javier Ruisanchez 2024</p>
+            </div>
+          </div>
        </>
     );
 

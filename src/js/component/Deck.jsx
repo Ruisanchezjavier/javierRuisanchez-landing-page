@@ -6,19 +6,24 @@ const Deck = () => {
        <>
        
           <div className="row ">
-            <div className="col-3">
-          <Card />
+            <div className="col-2"></div>
+            <div className="col-8 mx-auto">
+               <div className="row">
+                  <div className="col">
+                      <Card />
+                  </div>
+                  <div className="col">
+                     <Card />
+                  </div>
+                  <div className="col">
+                      <Card />
+                  </div>
+                  <div className="col">
+                      <Card />
+                  </div>
+                </div>
             </div>
-            <div className="col-3">
-          <Card />
-            </div>
-            <div className="col-3">
-          <Card />
-            </div>
-            <div className="col-3">
-          <Card />
-            </div>
-            
+              <div className="col-2"></div>
           </div>
         
        </>
